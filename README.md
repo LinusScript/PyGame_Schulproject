@@ -26,3 +26,6 @@ cd PyGame_Schulproject
 git add .
 git commit -m "Kurze Beschreibung"
 git push
+
+
+Test 
