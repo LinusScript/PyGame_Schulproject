@@ -31,3 +31,5 @@ git push
 Test 123
 test Ich hoffe es funktioniert
 test 
+
+"git pull" um zu aktualisieren
