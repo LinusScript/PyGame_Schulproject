@@ -1,35 +1,24 @@
-> Tipp: Wenn ihr noch keine Assets nutzt, lasst `assets/` einfach weg.
+# Pac-Man (Sculprojekt)
 
----
-## 🤝 Zusammenarbeit (Kollegen: Zugriff + Pull/Push)
+Pac-Men Nachbau als untere LF5_Python Projekt mit **Python + Pygames**
 
-### 1) Zugriff geben (du als Repo-Owner)
-Damit dein Kollege **pullen & pushen** kann, musst du ihn auf GitHub hinzufügen:
+## Aufgaben 
 
-1. GitHub Repo öffnen: `LinusScript/PyGame_Schulproject`
-2. **Settings** → **Collaborators** (oder **Manage access**)
-3. **Add people** → GitHub-Username oder E-Mail eingeben
-4. Berechtigung: **Write**
-5. Kollege nimmt die Einladung an (Glocke/Email)
+<https://miro.com/app/board/uXjVJQYVbTg=/>
 
-> Public Repo: Jeder kann **clonen/pullen**, aber **pushen nur Collaborators**.
+**SSH**
 
-### 2) Was der Kollege im Terminal macht (1:1)
-
-#### Repo holen (einmalig)
 ```bash
-git clone https://github.com/LinusScript/PyGame_Schulproject.git
+git clone git@github.com:LinusScript/PyGame_Schulproject.git
 cd PyGame_Schulproject
-```
-#### Änderungen hochladen (Push)
-```bash
+
+
+Git Befehle 
+
+´´´bash 
+git checkout main
+git pull
+git checkout -b feature/<thema>
 git add .
-git commit -m "Kurze Beschreibung"
-git push
-
-
-Test 123
-test Ich hoffe es funktioniert
-test 
-
-"git pull" um zu aktualisieren
+git commit -m "Beschreibung"
+git push -u origin ´´´
