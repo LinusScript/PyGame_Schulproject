@@ -9,3 +9,13 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
