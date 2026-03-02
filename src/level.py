@@ -1,7 +1,3 @@
-from __future__ import annotations
-from dataclasses import dataclass
-from pathlib import Path
-from typing import Iterable, List, Optional, Sequence, Set, Tuple
 """level.py
 
 A clean, tile-based level implementation for a Pac-Man style game.
@@ -313,19 +309,3 @@ class Level:
             pygame.draw.line(screen, color, (x, 0), (x, h))
         for y in range(0, h + 1, t):
             pygame.draw.line(screen, color, (0, y), (w, y))
-
-import pygame
-
-
-
-try:
-    import settings as S
-
-    TILE: int = getattr(S, "TILE",24)
-    BLACK = getattr(S, "BLACK", (0, 0, 0))
-    WHITE = getattr(S, "WHITE", (240, 240, 240))
-    BLUE = getattr(S,"BLUE", (0,0,180))
-    YELLOW = getattr(S,"YELLOW", (240,255,0))
-
-        LEVEL_PATH = getattr(S,"LEVEL_PATH",None)
-            LEVEL_MAP
