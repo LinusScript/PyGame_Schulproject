@@ -303,6 +303,8 @@ class Level:
 
     # ------------------------------ Debug -----------------------------------
 
+
+
     def debug_draw_grid(self, screen: pygame.Surface, color: Tuple[int, int, int] = (40, 40, 40)) -> None:
         """Optional: draw a light grid overlay for debugging."""
         w, h = self.pixel_size
