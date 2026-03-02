@@ -13,7 +13,9 @@ Pac-Man Nachbau als unser **LF5_Python** Projekt mit **Python + Pygame**.
 
 
 ## Aufgaben
-**https://miro.com/app/board/uXjVJQYVbTg=/**
+
+https://miro.com/app/board/uXjVJQYVbTg=/
+
 =======
 ## Repository klonen (SSH)
 ```bash
