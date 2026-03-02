@@ -1,8 +1,8 @@
 # Pac-Man (Schulprojekt)
 
 Pac-Man Nachbau als Projekt in Lernfeld 5 mit **Python + Pygame **
+
 -> Ziel: Sauberer Aufbau, cooles Spiel erstellen 
-=======
 
 
 Pac-Man Nachbau als unser **LF5_Python** Projekt mit **Python + Pygame**.
