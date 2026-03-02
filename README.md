@@ -1,10 +1,22 @@
 # Pac-Man (Schulprojekt)
 
+Pac-Man Nachbau als Projekt in Lernfeld 5 mit **Python + Pygame**
+
+-> Ziel: Sauberer Aufbau, cooles Spiel erstellen 
+
+
 Pac-Man Nachbau als unser **LF5_Python** Projekt mit **Python + Pygame**.
 
+
+## Aufgaben / Aufgabenblatt 
+
+
+
 ## Aufgaben
+
 https://miro.com/app/board/uXjVJQYVbTg=/
 
+=======
 ## Repository klonen (SSH)
 ```bash
 git clone git@github.com:LinusScript/PyGame_Schulproject.git
@@ -25,5 +37,3 @@ git commit -m "Beschreibung"
 git push -u origin feature/<thema>
 
 ```
-
-
