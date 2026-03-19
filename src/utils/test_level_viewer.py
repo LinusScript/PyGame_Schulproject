@@ -13,7 +13,7 @@ from src.level import Level  # level.py liegt unter src/
 def main():
     pygame.init()
 
-    level = Level()  # nutzt DEFAULT_MAP oder assets/maps/level1.txt (wenn vorhanden)
+    level = Level()
 
     screen = pygame.display.set_mode(level.pixel_size)
     pygame.display.set_caption("Level Test")
